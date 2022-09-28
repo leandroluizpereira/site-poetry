@@ -1,0 +1,39 @@
+
+body{
+    background-color: rgb(226, 250, 242);
+}
+main{
+    display: grid;
+    grid-area:"left center right ";
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: auto;
+    width: 1000px;
+    height: 600px;
+    background-color: rgb(175, 218, 218);
+    border-radius: 10px;
+
+}
+.content-left{
+  display: grid;
+  grid-area: "left";
+  width: 330px;
+  background-color: blanchedalmond;
+  border-radius: 10px;
+}
+
+.content-center{
+    display: grid;
+    grid-area: "center";
+    width: 330px;
+    background-color: rgb(157, 97, 7);
+    border-radius: 10px;
+}
+
+.content-right{
+    display: grid;
+    grid-area: "right";
+    width: 330px;
+    background-color: rgb(169, 31, 31);
+    border-radius: 10px;
+}
+
