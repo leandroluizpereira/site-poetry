@@ -69,10 +69,28 @@ main{
     bottom: 160px;
     width: 500px;
     margin: auto;
-    height: 500px;
+    height: auto;
     background-color: rgb(255, 255, 255);
     border: 0.2px solid black;
     border-radius: 10px;
+}
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.poem-text{
+    margin-top: 20px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    border-radius: 10px;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    border: 0.2px solid black;
+
 }
 
 .content-right{
