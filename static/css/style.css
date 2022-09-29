@@ -38,13 +38,16 @@ main{
     margin: auto;
     border-radius: 50%;
     border: 0.2px solid black;
+    /*left right espalhamento e tonalidade*/
     width: 200px;
     height: 200px;
     background-color: chocolate;
     background-image: url(../imagem/leandro.jpg);
     background-position: center;
     background-size: 100%;
+    animation: 3s cor infinite;
 }
+
 
 .container-author{
     position: relative;
@@ -55,8 +58,8 @@ main{
     border: 0.2px solid black;
     border-radius: 10px;
     margin: auto;
-}
 
+}
 .content-center{
     display: grid;
     grid-area: "center";
@@ -73,6 +76,8 @@ main{
     background-color: rgb(255, 255, 255);
     border: 0.2px solid black;
     border-radius: 10px;
+    overflow: scroll;
+    
 }
 
 h1{
@@ -92,7 +97,10 @@ h1{
     border: 0.2px solid black;
 
 }
+p{
 
+    text-indent: 20px;
+}
 .content-right{
     display: grid;
     grid-area: "right";
@@ -132,3 +140,29 @@ footer{
     border: 0.2px solid black;
     z-index: 1;
 }
+
+@keyframes cor {
+
+    0%{
+        box-shadow: 0px 0px 0px 0px  black;
+    }
+
+    25%{
+        box-shadow:0px 0px 3px 0px  rgb(50, 45, 45);
+    }
+
+    50%{
+        box-shadow:0px 0px 10px 1px  rgb(18, 4, 172);
+    }
+   
+    75%{
+        box-shadow:0px 0px 3px 0px  rgb(50, 45, 45);
+    }
+
+    100%{
+        box-shadow:0px 0px 0px 0px  black;
+    }
+}
+
+
+
