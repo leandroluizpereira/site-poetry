@@ -60,6 +60,28 @@ main{
     margin: auto;
 
 }
+.author{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 70px;
+    border-radius: 20px;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-bottom: 0px;
+    background-color: rgb(255, 255, 255);
+    border: 0.2px solid black; 
+    cursor: pointer;
+}
+.author:hover{
+    background-color: rgb(5, 12, 83);
+    color: rgb(206, 211, 198);
+}
+h3{
+    text-align: center;
+}
 .content-center{
     display: grid;
     grid-area: "center";
@@ -81,6 +103,10 @@ main{
 }
 
 h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+h2{
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
 }
