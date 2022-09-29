@@ -76,8 +76,8 @@ main{
     cursor: pointer;
 }
 .author:hover{
-    background-color: rgb(5, 12, 83);
-    color: rgb(206, 211, 198);
+    background-color: rgb(244, 245, 255);
+    color: rgb(0, 0, 0);
 }
 h3{
     text-align: center;
