@@ -1,39 +1,116 @@
 
 body{
-    background-color: rgb(226, 250, 242);
+    background-color: rgb(255, 255, 255);
+}
+
+header{
+    position: relative;
+    bottom: 700px;
+    border-radius: 50%;
+    width: 100%;
+    height: 1000px;
+    background-color: rgb(255, 255, 255);
+    border: 0.2px solid black;
 }
 main{
+    position: relative;
+    bottom: 700px;
     display: grid;
     grid-area:"left center right ";
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 25% 50% 25%;
     margin: auto;
-    width: 1000px;
+    width: 100%;
     height: 600px;
-    background-color: rgb(175, 218, 218);
     border-radius: 10px;
 
 }
 .content-left{
   display: grid;
   grid-area: "left";
-  width: 330px;
-  background-color: blanchedalmond;
+  width: 100%;
+
   border-radius: 10px;
+}
+
+.container-perfil{
+    position: relative;
+    bottom: 100px;
+    margin: auto;
+    border-radius: 50%;
+    border: 0.2px solid black;
+    width: 200px;
+    height: 200px;
+    background-color: chocolate;
+    background-image: url(../imagem/leandro.jpg);
+    background-position: center;
+    background-size: 100%;
+}
+
+.container-author{
+    position: relative;
+    bottom: 80px;
+    width:250px;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    border: 0.2px solid black;
+    border-radius: 10px;
+    margin: auto;
 }
 
 .content-center{
     display: grid;
     grid-area: "center";
-    width: 330px;
-    background-color: rgb(157, 97, 7);
+    width: 100%;
+    border-radius: 10px;
+}
+
+.container-poetry{
+    position: relative;
+    bottom: 160px;
+    width: 500px;
+    margin: auto;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    border: 0.2px solid black;
     border-radius: 10px;
 }
 
 .content-right{
     display: grid;
     grid-area: "right";
-    width: 330px;
-    background-color: rgb(169, 31, 31);
+    width: 100%;
+
     border-radius: 10px;
 }
+.container-outher{
+    position: relative;
+    bottom: 170px;
+    width: 250px;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    border: 0.2px solid black;
+    margin: auto;
+    border-radius: 10px;
 
+}
+
+
+footer{
+    position: relative;
+    bottom: 600px;
+    width: 100%;
+    height: 1000px;
+    background-color: rgb(255, 255, 255);
+    border: 0.2px solid black;
+    z-index: 0;
+}
+
+.correct-div{
+    position: relative;
+    top: 700px;
+    width: 100%;
+    height: 1000px;
+    background-color: rgb(255, 255, 255);
+    border: 0.2px solid black;
+    z-index: 1;
+}
