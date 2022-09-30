@@ -1,7 +1,6 @@
 
 alert("Poetry");
 
-var 
 var author-l = document.elementById("author-leandro");
 var author-v = document.elementById("author-v");
 
