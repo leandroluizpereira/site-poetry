@@ -53,6 +53,8 @@ main{
     background-position: center;
     background-size: 100%;
     animation: 3s cor infinite;
+    
+
 }
 
 
@@ -118,7 +120,10 @@ h2{
 }
 
 .poem-text{
-    padding: 10px;
+    padding-top:10px;
+    padding-left:10px ;
+    padding-right:10px ;
+    padding-bottom: 30px;
     margin-top: 20px;
     margin-bottom: 0px;
     margin-left: auto;
