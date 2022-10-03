@@ -1,6 +1,17 @@
 
+
+
+:root {
+
+    --cor-orange-soda:#F06449;
+    --cor-cor-tea-green:#dcf2b0;
+    --cor-barn-red:#720e07;
+    --cor-black-bean:#45050c;
+    --cor-burgundy:#8a0d21;
+
+}
 body{
-    background-color: rgb(255, 255, 255);
+    background-color: var(--cor-orange-soda);
 }
 
 header{
@@ -9,7 +20,7 @@ header{
     border-radius: 50%;
     width: 100%;
     height: 1000px;
-    background-color: rgb(255, 255, 255);
+    background-color:var(--cor-barn-red);
     border: 0.2px solid black;
 }
 main{
@@ -54,7 +65,7 @@ main{
     bottom: 80px;
     width:250px;
     height: 500px;
-    background-color: rgb(255, 255, 255);
+    background-color:var(--cor-burgundy);
     border: 0.2px solid black;
     border-radius: 10px;
     margin: auto;
@@ -71,7 +82,7 @@ main{
     margin-top: 20px;
     margin-left: auto;
     margin-bottom: 0px;
-    background-color: rgb(255, 255, 255);
+    background-color: var(--cor-cor-tea-green);
     border: 0.2px solid black; 
     cursor: pointer;
 }
@@ -95,7 +106,7 @@ h3{
     width: 500px;
     margin: auto;
     height: 450px;
-    background-color: rgb(255, 255, 255);
+    background-color: var(--cor-burgundy);
     border: 0.2px solid black;
     border-radius: 10px;
     overflow: auto;    /* sera usado quando for necessario o uso aparecera a barra de rolagem */
@@ -121,7 +132,7 @@ h2{
     width: 75%;
     border-radius: 10px;
     height: auto;
-    background-color: rgb(255, 255, 255);
+    background-color: var(--cor-cor-tea-green);
     border: 0.2px solid black;
 
 }
@@ -141,7 +152,7 @@ p{
     bottom: 170px;
     width: 250px;
     height: 500px;
-    background-color: rgb(255, 255, 255);
+    background-color:var(--cor-burgundy);
     border: 0.2px solid black;
     margin: auto;
     border-radius: 10px;
