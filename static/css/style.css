@@ -71,7 +71,7 @@ main{
     border-radius: 10px;
     margin: auto;
     overflow: auto;
-    animation: 2s frontDois linear;
+    animation: 1s frontDois linear;
 
 }
 .author{
@@ -114,7 +114,7 @@ h3{
     border: 2px solid white;
     border-radius: 10px;
     overflow: auto;    /* sera usado quando for necessario o uso aparecera a barra de rolagem */
-    animation: 3s front linear;
+    animation: 2s front linear;
    
 }
 
@@ -166,7 +166,7 @@ p{
     border: 2px solid white;
     margin: auto;
     border-radius: 10px;
-    animation: 4s esquerda linear;
+    animation: 2.2s esquerda linear;
 
 }
 
