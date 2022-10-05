@@ -31,7 +31,6 @@ authorVi.onclick = function(){
     poetryFour.textContent="";
     poetryFive.textContent="";
 
-
 }
 
 
