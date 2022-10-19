@@ -171,14 +171,16 @@ p{
 }
 .div-table{
     margin: 30px auto;
-    width: 75%;
-}
-
-table{
-    background-color: white;
+    width: 85%;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+table{
+    width: 100%;
+    background-color: white;
+   
     text-align: center;
     border: 1px solid black;
 }thead{
@@ -187,11 +189,23 @@ table{
 }
 
 tr{
+
+}
+.td-title{
+    background-color: var(--cor-barn-red);
+    color: white;
+}
+td{
+    color: black;
+    background-color: beige;
     border: 1px solid black;
+  
 }
 
-td{
-    border: 1px solid black;
+.td-result{
+    
+    background-color: #F06449;
+    color: white;
 }
 
 
