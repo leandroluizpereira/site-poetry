@@ -65,7 +65,7 @@ main{
     position: relative;
     bottom: 80px;
     width:250px;
-    height: 500px;
+    height: 480px;
     background-color:var(--cor-burgundy);
     border: 2px solid white;
     border-radius: 10px;
@@ -168,6 +168,27 @@ p{
     border-radius: 10px;
     animation: 2.2s esquerda linear;
 
+}
+.div-table{
+    margin: 30px auto;
+    width: 75%;
+}
+
+table{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 1px solid black;
+}
+
+tr{
+    border: 1px solid black;
+}
+
+td{
+    border: 1px solid black;
 }
 
 
