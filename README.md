@@ -3,9 +3,9 @@
  
  ## List used :
  
- *css
- *html
- *javscript
+ * css
+ * html
+ * javscript
  
  ## not utilizing in project :
  
