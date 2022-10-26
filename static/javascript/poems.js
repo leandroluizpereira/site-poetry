@@ -9,6 +9,23 @@ var poetryThree = document.getElementById("poetry-three");
 var poetryFour = document.getElementById("poetry-four");
 var poetryFive= document.getElementById("poetry-five");
 
+//          Variable Table 
+
+var resultOne = document.getElementById('result').nodeValue;
+var resultTwo = document.getElementById('resultTwo').nodeValue;
+var resultThree = document.getElementById('resultThree'); // this propierty null for test
+var resultFour = document.getElementById('resultFour').nodeValue;
+var resultFive = document.getElementById('resultFive').nodeValue;
+var resultSix = document.getElementById('resultSix').nodeValue;
+
+// teste 
+
+soma = resultOne + resultTwo;
+
+
+console.log(soma);
+
+
 
 authorLe.onclick = function(){
     photoPerfil.style.backgroundImage="url('static/imagem/leandro.jpg')";
