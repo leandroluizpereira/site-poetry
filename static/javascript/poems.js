@@ -23,6 +23,7 @@ var resultSix = document.getElementById('resultSix').nodeValue;
 soma = resultOne + resultTwo;
 
 
+
 console.log(soma);
 
 
@@ -52,6 +53,7 @@ authorLe.onclick = function(){
 }
 
 authorVi.onclick = function(){
+
     alert("clicou vinicius ok");
     photoPerfil.style.backgroundImage="url('static/imagem/th.jpg')";
     titulo.textContent="Vinicius de Moraes";
@@ -71,4 +73,9 @@ authorVi.onclick = function(){
     poetryFive.style="display:none";
 }
 
- 
+  
+ // 1 - Obstrução de página de layount díferentes de slides 
+ // 2 - javascript usar o localstores ou banco de dados firebase 
+ // 3 - lista de armazenamento em campo
+ // 4 - servidor , 
+ // 5 - 
