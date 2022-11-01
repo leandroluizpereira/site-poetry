@@ -231,7 +231,7 @@ td{
     border-radius: 10px;
     width:  33.3%;
     height: 500px;
-    background-color: #45050c;
+    background-color:var(--cor-barn-red);
 
 }
 .container-Two{
@@ -239,7 +239,7 @@ td{
     border-radius: 10px;
     width:  33.3%;
     height: 500px;
-    background-color: #260545;
+    background-color:var(--cor-barn-red);
 
 }
 .container-Three{
@@ -248,7 +248,7 @@ td{
     border-radius: 10px;
     width:  33.3%;
     height: 500px;
-    background-color: #054509;
+    background-color:var(--cor-barn-red);
 }
 
 
